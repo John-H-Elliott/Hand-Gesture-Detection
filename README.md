@@ -2,7 +2,7 @@
 ### Structure: Hardware
 Code must have all modules and Python installed to be able to run correctly. Also, a camera is required to run this application.
 
-If running ```home_assiastant.py``` without mocking it a home assiastant server needs to be set up with a WIFI-connected bulb regesitered. Then a long-term key and the lights ID should be used in a ```.env``` file using the names  *HOME_ASSISTANT_LONG_TERM_KEY* and the _LIGHTING_ID_, respectively.
+If running ```home_assiastant.py``` without mocking. The home assistant server needs to be set up with a WIFI-connected bulb registered. Then a long-term key and the lights ID should be used in a ```.env``` file using the names  *HOME_ASSISTANT_LONG_TERM_KEY* and the _LIGHTING_ID_, respectively.
 
 ### Structure: Files
 To run this application ```main.py```,```home_assiastant.py```,```gesture_recognizer.task``` must all be in the same directory. Also, a ```.env``` file needs to be included which provides the *HOME_ASSISTANT_LONG_TERM_KEY* and the *LIGHTING_ID* (Not required to be valid if setting mock = True).

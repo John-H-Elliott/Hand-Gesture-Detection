@@ -109,7 +109,7 @@ Detects hand gestures using Mediapipe's prebuilt model using the GestureRecogniz
 The frame is then drawn on to show hand landmarks and an API call to Home Assistant is made to turn on or of`f a light based on the gesture recognized.
 
 Parameters:
-    caculated:   If True, the gesture_caculation() function will be called to determine the gesture. If False, the gesture will be determined by the prebuilt Mediapipe model.
+    calculated:   If True, the gesture_calculation() function will be called to determine the gesture. If False, the gesture will be determined by the prebuilt Mediapipe model.
     mock (bool): If True, the API call to Home Assistant will not be made. This is used for testing purposes. By default, this is set to False.
 """
 def detection(calculated, mock=False):
